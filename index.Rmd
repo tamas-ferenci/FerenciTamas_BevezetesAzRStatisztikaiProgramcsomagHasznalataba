@@ -27,4 +27,5 @@ Az R talán legnagyobb erejét a hozzá megírt, megszámlálhatatlan sok kiegé
 ```{r include=FALSE}
 options(digits = 1)
 knitr::opts_chunk$set(tidy = TRUE, fig.height = 4)
+set.seed(1)
 ```
