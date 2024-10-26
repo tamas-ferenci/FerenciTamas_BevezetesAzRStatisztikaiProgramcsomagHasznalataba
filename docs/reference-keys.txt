@@ -1,5 +1,5 @@
 előszó
-általános-megjegyzések
+az-r-szkriptek-néhány-alapvető-jellemzője-az-rstudio-integrált-fejlesztői-környezet
 adattípusok-adatszerkezetek
 értékadás
 adattípusok
