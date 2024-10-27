@@ -10,7 +10,7 @@
 <meta name="generator" content="bookdown 0.41 with bs4_book()">
 <meta property="og:title" content="6 . fejezet Data table: egy továbbfejlesztett adatkeret | Bevezetés az R statisztikai programcsomag használatába">
 <meta property="og:type" content="book">
-<meta property="og:url" content="https://tamas-ferenci.github.io/FerenciTamas_BevezetesAzRStatisztikaiProgramcsomagHasznalataba/data-table-egy-továbbfejlesztett-adatkeret.html">
+<meta property="og:url" content="https://tamas-ferenci.github.io/FerenciTamas_BevezetesAzRStatisztikaiProgramcsomagHasznalataba/datatable.html">
 <meta property="og:image" content="https://tamas-ferenci.github.io/FerenciTamas_BevezetesAzRStatisztikaiProgramcsomagHasznalataba/bevrcover.png">
 <meta property="og:description" content="Amint volt már róla szó korábban, az adatkeret (data frame) az alapvető struktúra a feldolgozandó adatok, adatbázisok tárolására és kezelésére az R-ben. Noha ennek a célnak megfelel, számos téren...">
 <meta name="twitter:card" content="summary">
@@ -57,7 +57,7 @@
 <li><a class="" href="adatt%C3%ADpusok-adatszerkezetek.html"><span class="header-section-number">3</span> Adattípusok, adatszerkezetek</a></li>
 <li><a class="" href="f%C3%BCggv%C3%A9nyek.html"><span class="header-section-number">4</span> Függvények</a></li>
 <li><a class="" href="az-r-programoz%C3%A1sa.html"><span class="header-section-number">5</span> Az R programozása</a></li>
-<li><a class="active" href="data-table-egy-tov%C3%A1bbfejlesztett-adatkeret.html"><span class="header-section-number">6</span> Data table: egy továbbfejlesztett adatkeret</a></li>
+<li><a class="active" href="datatable.html"><span class="header-section-number">6</span> Data table: egy továbbfejlesztett adatkeret</a></li>
 </ul>
 
         <div class="book-extra">
@@ -65,9 +65,9 @@
         </div>
       </nav>
 </div>
-  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="data-table-egy-továbbfejlesztett-adatkeret" class="section level1" number="6">
+  </header><main class="col-sm-12 col-md-9 col-lg-7" id="content"><div id="datatable" class="section level1" number="6">
 <h1>
-<span class="header-section-number">6 . fejezet</span> Data table: egy továbbfejlesztett adatkeret<a class="anchor" aria-label="anchor" href="#data-table-egy-tov%C3%A1bbfejlesztett-adatkeret"><i class="fas fa-link"></i></a>
+<span class="header-section-number">6 . fejezet</span> Data table: egy továbbfejlesztett adatkeret<a class="anchor" aria-label="anchor" href="#datatable"><i class="fas fa-link"></i></a>
 </h1>
 <p>Amint volt már róla szó korábban, az adatkeret (data frame) az alapvető struktúra a feldolgozandó adatok, adatbázisok tárolására és kezelésére az R-ben. Noha ennek a célnak megfelel, számos téren kiegészíthető, továbbfejleszthető. Az évek alatt két nagy lehetőség kristályosodott ki és ment át széleskörű használatba, mely ilyen továbbfejlesztést jelent: a <code>dplyr</code> csomag és a <code>data.table</code> csomag. Jelen fejezet a <code>data.table</code> működését és jellemzőit fogja bemutatni, különös tekintettel a hagyományos data frame-mel való összevetésre.</p>
 <p>A <code>data.table</code> csomag első verziója 2008-ban jelent meg, eredeti megalkotója Matt Dowle. Nagyon erőteljes, gyors, erősen optimalizált, némi gyakorlás után logikus, kompakt, konzisztens, könnyen lekódolható és jól olvasható szintaktikájú, <a href="https://github.com/Rdatatable/data.table?tab=readme-ov-file#community">jól támogatott</a> csomag. A <code>data.table</code>-nek semmilyen függősége nincs az R-en kívül (ott is törekednek a nagyon régi változatok támogatására is), így kifejezetten problémamentesen beépíthető R kódokba, csomagokba.</p>
@@ -1006,7 +1006,7 @@ számláló" href="https://www.statcounter.hu/" target="_blank"><img class="stat
 </div></main><div class="col-md-3 col-lg-2 d-none d-md-block sidebar sidebar-chapter">
     <nav id="toc" data-toggle="toc" aria-label="On this page"><h2>On this page</h2>
       <ul class="nav navbar-nav">
-<li><a class="nav-link" href="#data-table-egy-tov%C3%A1bbfejlesztett-adatkeret"><span class="header-section-number">6</span> Data table: egy továbbfejlesztett adatkeret</a></li>
+<li><a class="nav-link" href="#datatable"><span class="header-section-number">6</span> Data table: egy továbbfejlesztett adatkeret</a></li>
 <li><a class="nav-link" href="#sebess%C3%A9g-%C3%A9s-nagym%C3%A9ret%C5%B1-adatb%C3%A1zisok-kezel%C3%A9se"><span class="header-section-number">6.1</span> Sebesség és nagyméretű adatbázisok kezelése</a></li>
 <li><a class="nav-link" href="#jobb-ki%C3%ADrat%C3%A1s"><span class="header-section-number">6.2</span> Jobb kiíratás</a></li>
 <li><a class="nav-link" href="#k%C3%A9nyelmesebb-sorindexel%C3%A9s-sor-sz%C5%B1r%C3%A9s-%C3%A9s--rendez%C3%A9s"><span class="header-section-number">6.3</span> Kényelmesebb sorindexelés (sor-szűrés és -rendezés)</a></li>
