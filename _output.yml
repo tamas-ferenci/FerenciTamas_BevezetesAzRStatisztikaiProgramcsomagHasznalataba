@@ -1,9 +1,12 @@
-bookdown::gitbook:
+bookdown::bs4_book:
   pandoc_args: "--html-q-tags"
   css: style.css
   includes:
       in_header: GATamasFerenciGithubIo.html
       after_body: statcounter.html
+  repo:
+    base: https://github.com/tamas-ferenci/FerenciTamas_BevezetesAzRStatisztikaiProgramcsomagHasznalataba
+    branch: main
   config:
     toc:
       before: |

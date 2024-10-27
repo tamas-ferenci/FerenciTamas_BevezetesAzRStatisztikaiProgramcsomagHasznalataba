@@ -18,3 +18,11 @@ függvényhívások
 saját-függény-definiálása
 az-r-programozása
 funkcionális-programozás
+data-table-egy-továbbfejlesztett-adatkeret
+sebesség-és-nagyméretű-adatbázisok-kezelése
+jobb-kiíratás
+kényelmesebb-sorindexelés-sor-szűrés-és--rendezés
+kibővített-oszlopindexelés-oszlop-kiválasztás-és-oszlop-létrehozás-műveletekkel
+csoportosítás-aggregáció
+indexelések-láncolása-egymás-után
+referencia-szemantika
