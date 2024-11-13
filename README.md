@@ -1,1 +1,1 @@
-[Ferenci Tamás: Bevezetés az R statisztikai programcsomag használatába (jegyzet).](https://tamas-ferenci.github.io/FerenciTamas_BevezetesAzRStatisztikaiProgramcsomagHasznalataba/)
+Új cím: <https://tamas-ferenci.github.io/ferenci-tamas-r-nyelv/>.
